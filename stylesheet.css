@@ -50,7 +50,7 @@ header{
 .top-wrapper{
   width:1280px;
   height:720px;
-  background-image: url("/Users/Kazuki/Desktop/practice/top-wrapper_bg.jpg");
+  background-image: url("top-wrapper_bg.jpg");
   background-size: cover;
 }
 
