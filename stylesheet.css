@@ -1,0 +1,201 @@
+body{
+  margin: 0;
+  font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+h1{
+  margin:0;
+}
+
+header{
+  width:1280px;
+  height:65px;
+  background-color:rgb(255,255,204);
+  position:fixed;
+  top:0;
+  z-index:100;
+}
+
+.header-left{
+  float:left;
+  line-height: 65px;
+  font-size: 32px;
+  margin-left: 20px;
+}
+
+.header-right{
+  float:right;
+  display:inline-block;
+  height: 65px;
+  padding-right: 20px;
+}
+
+.header-right li{
+  float:left;
+  font-size:24px;
+  list-style: none;
+  padding: 0px 20px;
+  opacity:0.7;
+}
+
+.header-right a:hover{
+  color:#a9a9a9;
+}
+
+.header-right a{
+  text-decoration: none;
+  color:black;
+}
+
+.top-wrapper{
+  width:1280px;
+  height:720px;
+  background-image: url("top-wrapper_bg.jpg");
+  background-size: cover;
+}
+
+.container{
+  max-width: 1000px;
+  margin:0px auto;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.top-wrapper h1{
+  font-size: 72px;
+  letter-spacing: 3px;
+  opacity: 0.8;
+}
+
+.profile-wrapper{
+  background-color: rgba(255, 255, 214, 0.5);
+  height: 720px;
+  border-bottom: 1px solid #a9a9a9;
+}
+
+.heading{
+  margin: 0px auto;
+  border-bottom: 2px solid #000;
+}
+
+.profile-wrapper h1{
+  text-align: center;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  font-size: 48px;
+}
+
+.profile{
+  margin-top: 25px;
+  margin-left:40px;
+  margin-right:40px;
+}
+
+.profile img{
+  height:250px;
+  width:250px;
+  border-radius: 200px;
+}
+
+.profile p{
+  float:right;
+  line-height: 55px;
+}
+
+.favorite-wrapper{
+  text-align: center;
+  background-color:rgba(255, 255, 214, 0.5);
+  height:780px;
+  border-bottom: 1px solid #a9a9a9;
+}
+
+.favorite-wrapper h1{
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  font-size: 48px;
+}
+
+.favorite{
+  margin-top: 25px;
+  float:left;
+  width: 25%;
+}
+
+.favorite-icon img{
+  width: 200px;
+  height:200px;
+  border-radius: 150px;
+}
+
+.txt-contents{
+  font-size:12px;
+  width:80%;
+  display: inline-block;
+  margin-top: 25px;
+}
+
+.contact-form-wrapper{
+  background-image: url("contact-bg.jpg");
+  background-size: conver;
+  color: white;
+}
+
+.contact-form-innner{
+  background-color: rgba(0, 0, 0, 0.6);
+  padding-bottom: 70px;
+}
+
+.form-container{
+  width:90%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section-title h3{
+  font-size: 32px;
+  margin: 0px;
+  padding-top: 30px;
+}
+
+.contact-form{
+  text-align: left;
+}
+
+h4{
+  font-size: 22px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+form{
+  display: block;
+}
+
+input,textarea{
+  margin: 0px;
+  vertical-align: middle;
+  background-color: rgba(250, 250, 250, 00.8);
+  border: none;
+  width:85%;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+textarea{
+  height: 150px;
+}
+
+.btn-contact{
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #0dc0c0;
+  color: white;
+  border: 1px solid #09b1b9;
+  margin: 10px 0px;
+  padding:15px 35px;
+  display:block
+}
